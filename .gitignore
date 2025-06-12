@@ -1,0 +1,69 @@
+# === Rust (backend / wasm modules) ===
+/target/
+/Cargo.lock
+/pkg/
+/*.wasm
+wasm-pack.log
+
+# === Node.js / Next.js ===
+/node_modules/
+/package-lock.json
+/yarn.lock
+/pnpm-lock.yaml
+/.pnp.*
+.npmrc
+
+# === Next.js build output ===
+/.next/
+/out/
+/dist/
+/build/
+
+# === Vite (if used for wasm or submodule dev) ===
+/.vite/
+*.vite.cache
+
+# === Logs ===
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+logfile
+
+# === Testing ===
+/coverage/
+__snapshots__/
+
+# === Env files (keep secrets local) ===
+.env
+.env.local
+.env.*.local
+
+# === IDE/editor ===
+.idea/
+.vscode/
+*.iml
+
+# === OS / misc ===
+.DS_Store
+Thumbs.db
+
+# === Temporary files ===
+*.swp
+*.swo
+*.tmp
+
+# === Turbo / monorepo cache ===
+/.turbo/
+/.cache/
+
+# === ESLint, Prettier, etc. ===
+/.eslintcache
+
+# === Optional: VSCode local history ===
+.history/
+
+# === Optional: Mac system junk ===
+.AppleDouble
+.LSOverride
